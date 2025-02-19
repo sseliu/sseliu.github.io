@@ -1,4 +1,4 @@
- ---
+---
 layout: post
 title: Cloud-Connected Bracelet for Parkinson's Disease Monitoring
 subtitle: Exploring the Integration of Wearable Technologies and Cloud Computing in Healthcare
