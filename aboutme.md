@@ -1,6 +1,6 @@
 ---
 layout: page
-title: My CV
+title: About me
 subtitle: A brief personal description
 ---
 
