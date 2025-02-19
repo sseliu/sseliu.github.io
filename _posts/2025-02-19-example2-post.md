@@ -35,11 +35,11 @@ These AI-driven insights help clinicians adjust Levodopa dosages and improve tre
 
 ## Benefits and Future Directions
 The A-WEAR system offers several advantages:
-✅ **Continuous home monitoring**
-✅ **Objective severity assessment**
-✅ **Real-time clinician insights**
-✅ **Secure cloud-based storage and processing**
-✅ **Improved treatment personalization**
+ **Continuous home monitoring**
+ **Objective severity assessment**
+ **Real-time clinician insights**
+ **Secure cloud-based storage and processing**
+ **Improved treatment personalization**
 
 Future improvements may include:
 - **Additional sensors** (gyroscope, EMG) for more comprehensive analysis.
