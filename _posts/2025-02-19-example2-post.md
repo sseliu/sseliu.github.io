@@ -25,6 +25,8 @@ The system consists of **four primary components**:
 3. **Cloud Services** – Stores and processes data, applying **Continuous Wavelet Transform (CWT)** for time-frequency mapping.
 4. **End Users** – Medical professionals access processed data via cloud-based applications like **ServiceNow**.
 
+![The block diagram of the proposed PD monitoring system](/images/pd_device_workflow.png){: .mx-auto.d-block }
+
 ### Machine Learning for PD Severity Analysis
 The bracelet leverages **AlexNet**, a deep learning model, to analyze CWT-generated images of motion signals. The model classifies PD severity levels with impressive accuracy:
 - **Bradykinesia estimation**: 86.4%
