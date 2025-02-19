@@ -1,45 +1,54 @@
----
+ ---
 layout: post
-title: "Cloud Computing in Biomedical Image Processing"
-subtitle: "Exploring the Role of Cloud-Based AI in Medical Imaging"
-tags: [biomedicine, cloud computing, AI, medical imaging]
+title: Cloud-Connected Bracelet for Parkinson's Disease Monitoring
+subtitle: Exploring the Integration of Wearable Technologies and Cloud Computing in Healthcare
+tags: [biomedicine, cloud computing, wearable technology, healthcare]
 comments: true
-author: "Saioa Elizondo"
+author: Saioa Elizondo
 ---
 
 ## Introduction
+Parkinson's disease (PD) affects over 10 million people worldwide, causing debilitating motor symptoms such as tremors, bradykinesia, and postural instability. While medication like Levodopa provides symptomatic relief, continuous monitoring of motor functions is essential for optimizing treatment. A recent study proposes an innovative cloud-connected bracelet, **A-WEAR**, designed for real-time PD monitoring, utilizing **machine learning** and **cloud computing** to enhance patient care.
 
-Cloud computing is revolutionizing the biomedical field, particularly in medical imaging. The ability to process vast amounts of data remotely allows for faster diagnostics, improved accuracy, and accessibility across healthcare systems.
+## The Role of Cloud Computing in Parkinson’s Monitoring
+Traditional PD monitoring relies on **clinical assessments** that are often subjective and time-consuming. Wearable devices have revolutionized PD tracking by collecting **real-time motion data**, but challenges remain regarding **data security, power consumption, and connectivity**. The **A-WEAR** bracelet bridges these gaps by:
 
-## Cloud Computing in Biomedical Image Processing
+- Using **Wi-Fi-enabled sensors** to collect motion data.
+- Securely transmitting patient data to the cloud for analysis.
+- Applying **deep learning algorithms** to estimate the severity of symptoms such as tremors and bradykinesia.
+- Enabling remote monitoring for **more accurate and timely clinical decisions**.
 
-Recent research has demonstrated how cloud platforms can be leveraged for advanced medical image processing. These systems utilize deep learning algorithms to assist radiologists in detecting diseases such as cancer, cardiovascular issues, and neurological disorders.
+## How A-WEAR Works
+The system consists of **four primary components**:
+1. **Sensor Devices** – A-WEAR includes a **3D accelerometer** for continuous movement tracking.
+2. **Smartphones** – Connects the device to the **Microsoft Azure Cloud** via Wi-Fi.
+3. **Cloud Services** – Stores and processes data, applying **Continuous Wavelet Transform (CWT)** for time-frequency mapping.
+4. **End Users** – Medical professionals access processed data via cloud-based applications like **ServiceNow**.
 
-### Key Benefits:
-- **Scalability:** Cloud platforms can handle large datasets efficiently.
-- **Real-time Processing:** AI models process images quickly, reducing diagnostic delays.
-- **Collaboration:** Enables healthcare professionals to share and analyze images globally.
-- **Cost-effectiveness:** Reduces the need for expensive on-premise hardware.
+### Machine Learning for PD Severity Analysis
+The bracelet leverages **AlexNet**, a deep learning model, to analyze CWT-generated images of motion signals. The model classifies PD severity levels with impressive accuracy:
+- **Bradykinesia estimation**: 86.4%
+- **Tremor severity estimation**: 90.9%
+- **High sensitivity and specificity** in classifying different severity levels
 
-## Case Study: AI-Powered Image Analysis
+These AI-driven insights help clinicians adjust Levodopa dosages and improve treatment plans.
 
-The study presented in *Electronics* journal explores how cloud-based AI enhances the detection of medical abnormalities. The authors discuss the integration of convolutional neural networks (CNNs) in cloud platforms to improve accuracy in detecting tumors and lesions.
+## Benefits and Future Directions
+The A-WEAR system offers several advantages:
+✅ **Continuous home monitoring**
+✅ **Objective severity assessment**
+✅ **Real-time clinician insights**
+✅ **Secure cloud-based storage and processing**
+✅ **Improved treatment personalization**
 
-### Challenges & Solutions:
-- **Data Privacy Concerns:** Encryption and federated learning techniques ensure patient confidentiality.
-- **Computational Demand:** Cloud GPU/TPU instances provide the necessary processing power.
-- **Integration with Healthcare Systems:** APIs and cloud interoperability improve adoption in hospitals.
+Future improvements may include:
+- **Additional sensors** (gyroscope, EMG) for more comprehensive analysis.
+- **Edge computing solutions** to reduce reliance on cloud infrastructure.
+- **Extended battery life** for long-term patient usability.
 
-## Future Prospects
+## Conclusion
+The integration of **wearable IoT devices and cloud computing** in Parkinson’s disease management is a promising step toward **personalized healthcare**. The **A-WEAR bracelet** provides a non-invasive, data-driven approach to monitoring PD progression, paving the way for **smarter disease management and improved patient outcomes**.
 
-With ongoing advancements, cloud computing will continue to shape the future of medical imaging. AI-powered diagnostics, telemedicine, and real-time patient monitoring are becoming more prevalent, making healthcare more efficient and accessible.
-
-## References
-
-[1] *Electronics* Journal, "Cloud-Based AI in Biomedical Imaging," DOI: [Insert DOI here]  
-
----
-
-This blog post discusses cloud applications in biomedical imaging based on the research paper you provided. If you need any refinements, feel free to ask!
-
+### References
+- Channa, A., Ruggeri, G., Ifrim, R.-C., Mammone, N., Iera, A., & Popescu, N. (2024). *Cloud-Connected Bracelet for Continuous Monitoring of Parkinson’s Disease Patients: Integrating Advanced Wearable Technologies and Machine Learning.* *Electronics*, 13(1002). DOI: [10.3390/electronics13061002](https://doi.org/10.3390/electronics13061002)
 
