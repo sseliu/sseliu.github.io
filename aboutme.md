@@ -1,17 +1,15 @@
 ---
 layout: page
-title: About me
+title: My CV
 subtitle: A brief personal description
 ---
 
-My name is Ferran Aran, I am from Lleida and I love learning new skills. Have a look at my background below!
+My name is Saioa Elizondo, I am from Navarra and I love learning new skills. Have a look at my background below!
 
 ### Education
 
-- Computer science degree at UdL (2019 - 2022)
-- Master in computer science at UdL (2022 - 2024)
-- PhD in RL applied to energy (2024 - present)
+- Biomedical Engineering degree at UPF (2019 - 2024)
+- Master in Health Data Science at URV (2024 - 2026)
 
 ### Experience
-- Research assistant on MILP at UdL (2022 - 2023)
-- R&D as Data Scientist at GFT Technologies (2023 - present)
+- Research assistant  (2023-2024)
